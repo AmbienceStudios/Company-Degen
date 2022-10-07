@@ -40,6 +40,26 @@ export default function Home() {
             href="/"
             className={styles.card}
           >
+            <h2>Games &#128274;</h2>
+            <img class="thumbnail" src='/imgs/Meta_Partner.png' alt="CoverJam"/>
+            <br/><br/>
+            <p>Our Partners for the blockchain experience </p>
+          </a>
+
+          <a
+            href="/"
+            className={styles.card}
+          >
+            <h2>Fashion &#128274;</h2>
+            <img class="thumbnail" src='/imgs/Meta_Partner.png' alt="CoverJam"/>
+            <br/><br/>
+            <p>Our Partners for the blockchain experience </p>
+          </a>
+
+          <a
+            href="/"
+            className={styles.card}
+          >
             <h2>Best Frens &#128274;</h2>
             <img class="thumbnail" src='/imgs/Meta_Partner.png' alt="CoverJam"/>
             <br/><br/>
