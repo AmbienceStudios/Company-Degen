@@ -41,7 +41,7 @@ export default function CoverJam() {
      <form className="formStyles" action="https://formsubmit.co/CoverJAM@d3g3n.com" method="POST">
         <input type="hidden" name="_subject" value="CoverJAM! - New SIGN UP"/>
         <input type="text" name="Artist Name"  placeholder="Artist Name" required/>
-        <input type="email" name="ETH Address" placeholder="ETH Address" required/>
+        <input type="text" name="ETH Address" placeholder="ETH Address" required/>
         <input type="text" name="Tiwtter"  placeholder="Twitter Handle" required/>
         <input type="hidden" name="_autoresponse" value="Thank you for signup! Here's your copy!"/>
  
