@@ -24,7 +24,7 @@ export default function CoverJam() {
         <img className="logo" src='/imgs/Info.png'/>
 
         <p className="Details"> 
-        <code>Present by D3G3N</code> <br/> <br/>
+        <code>Presented by D3G3N</code> <br/> <br/>
         Hey Everyone!! GM!  We feel SO happy and SO grateful that YOU have decided to collaborate with us!  <br/> <br/>
 
 The Metaverse Song was Originally written by JLee Walls back in july of 2021, using touch screen technology and the free iphone app GarageBand for her own personal enjoyment, JLee would refer to it as her diary entry, as most singers and songwriters do.  <br/> <br/>
