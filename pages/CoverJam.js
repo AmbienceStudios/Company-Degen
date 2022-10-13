@@ -19,6 +19,8 @@ export default function CoverJam() {
         <img className="logo" src='/imgs/MetaLogo.png'/>
         <div className='marginSection'></div>
 
+        
+
         <img className="logo" src='/imgs/Info.png'/>
 
         <p className="Details"> 
@@ -71,7 +73,7 @@ The Cover Art will follow <strong>#THEMETAVERSESONG </strong>Theme!<br/> <br/>
  that will be announced on FRIDAY October 12th before 12:00 PM MST via our Website, Twitter post on @D3generous and retweeted by @JleeWalls and @Freequency and official rules will be posted in Discord. <br/> <br/>
 
 Artist Wallet will be needed to be able to be added to Smart Contract for the Metaverse Song Royalties, for the airdrop of your collaboration participation token, to allow you as an artist to connect to our artist support and spotlight platform and other future perks along the roadmap that will be revealed to you after we have closed the submission process, and had time to validate the submitted artworks etc. (please submit the public
- i.e. 0x12345670000009876543210000000111100001111110 not your ens domain name)<br/> <br/>
+ i.e. 0x12345678..1110 not your ens domain name)<br/> <br/>
 
 Entry content must be original and not purchased from Asset Marketplaces or other sources. Please allow the artist to use the creative resources they have available to create something that is original for the entry  <br/> <br/>
 

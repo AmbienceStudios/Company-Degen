@@ -8,6 +8,12 @@ body {
   overflow-x: hidden;
 }
 
+
+.logo {
+  width: 400px;
+}
+
+
 p, h1, h2 {
 color: white;
 }
@@ -94,7 +100,18 @@ button {
 
 @media only screen and (max-width: 768px) {
 
+  .Details {
+    padding: 20px 30px;
+    font-size: 20px;
+    color: white;
+  }
 
+
+  .list {
+    padding: 5px 20px;
+    font-size: 20px;
+    color: white;
+  }
 
   .formStyles {
     display: flex;
@@ -125,7 +142,7 @@ button {
 
 
   .logo {
-    width: 400px;
+    width: 300px;
   }
 
 }
