@@ -103,9 +103,12 @@ Entry content must be original and not purchased from Asset Marketplaces or othe
 <img className="logo" src='/imgs/ART.png'/>
 
 <div className='marginSection'></div>
+<h1>Final Output</h1>
 <p className='Details'>
-<strong>Cover Art Canvas Size:</strong> <br/>1,600px x 1,600px <br/> ( Width x Height )<br/> <br/>
+<strong>Cover Art Canvas Size:</strong> <br/>w: 1,600px / h: 1,600px <br/> <br/>
 <strong>DPI:</strong> <br/> 72<br/> <br/>
+<strong>File Type:</strong> <br/> PNG<br/> <br/>
+<strong>Color Mode:</strong> <br/> RGB<br/> <br/>
 
 
 
