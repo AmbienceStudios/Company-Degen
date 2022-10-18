@@ -16,12 +16,12 @@ export default function CoverJam() {
       </Head>
 
       <main className={styles.main}>
-        <img className="logo" src='/imgs/MetaLogo.png'/>
+        <Image className="logo" src='/imgs/MetaLogo.png' alt=""/>
         <div className='marginSection'></div>
 
         
 
-        <img className="logo" src='/imgs/Info.png'/>
+        <Image className="logo" src='/imgs/Info.png' alt=""/>
 
         <p className="Details"> 
         <code>Presented by D3G3N</code> <br/> <br/>
@@ -37,13 +37,13 @@ Because of all of the support and love that she has received from our NFT Commun
         
         </p>
 
-        <img className="logo" src='/imgs/THEME.png'/>
+        <Image className="logo" src='/imgs/THEME.png' alt=""/>
 
         <p className="Details"> 
         <code>SOUND OF THE METAVERSE</code> <br/> <br/>
         How would you invision the future of the world?  <br/> <br/>
     </p>
-        <img className="logo" src='/imgs/START.png'/>
+        <Image className="logo" src='/imgs/START.png' alt=""/>
 
 
       <p className="Details">
@@ -57,7 +57,7 @@ We will be accepting 300 1 of 1 Artist Submissions from our Twitter NFT Communit
 
 
 
-      <img className="logo" src='/imgs/rules.png'/>
+      <Image className="logo" src='/imgs/rules.png' alt=""/>
 
 
 <p className="Details">
@@ -116,7 +116,7 @@ Entry content must be original and not purchased from Asset Marketplaces or othe
 </p>
 <div className='marginSection'></div>
 
-<img className="logo" src='/imgs/Submit.png'/>
+<Image className="logo" src='/imgs/Submit.png' alt=""/>
 
 <div className='marginSection'></div> 
 
