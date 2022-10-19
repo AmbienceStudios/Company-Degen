@@ -130,11 +130,11 @@ export default function CoverJam() {
 
         For her own personal enjoyment, JLee Walls wrote the Metaverse Song utilizing touch screen technology and GarageBand for free on her iPhone. As most singers and songwriters do, she would refer to it as her diary entry.   <br/> <br/>
 
-Since earlier this year, morale in the 1/1 artists space has declined, and the bear market has begun to show itself. It was JLee's determination to uplift others through the narrative and empathy infused lyrics of The Metaverse Song that led her to begin performing the song. <br/> <br/>
+Since earlier this year, morale in the 1/1 artists space has declined, and the bear market has begun to show itself. It was JLee&apos;s determination to uplift others through the narrative and empathy infused lyrics of The Metaverse Song that led her to begin performing the song. <br/> <br/>
 
  Over the last several months, it has evolved into the version you have come to know and love today. Its LIVE guitar version was written way late into the night in a degen space. <br/> <br/>
 
- JLee felt like it was a meaningful way to show her love and appreciation for ALL of her brand-new frens and fellow creatives in the space because of all the support and love she has received on Twitter. By collaborating, we would INCLUDE their works on The Metaverse Song's official drop. <br/> <br/> We would attach it to the ERC Token, render it, and mint it onto the Ethereum blockchain as a rarity trait.  <br/> <br/>
+ JLee felt like it was a meaningful way to show her love and appreciation for ALL of her brand-new frens and fellow creatives in the space because of all the support and love she has received on Twitter. By collaborating, we would INCLUDE their works on The Metaverse Song&apos;s official drop. <br/> <br/> We would attach it to the ERC Token, render it, and mint it onto the Ethereum blockchain as a rarity trait.  <br/> <br/>
 
          
         
@@ -153,7 +153,7 @@ Since earlier this year, morale in the 1/1 artists space has declined, and the b
       Using blockchain technology, we will showcase YOUR ORIGINAL WORK as the Cover Art of the OFFICIAL MINT release of THE METAVERSE SONG! 
 <br/> <br/>
 
-Each cover art will have a "The Metaverse Song" title, and the Metaverse song will be attached and rendered with each non-fungible token. <br/> <br/>
+Each cover art will have a &apos;The Metaverse Song&apos; title, and the Metaverse song will be attached and rendered with each non-fungible token. <br/> <br/>
 
 A total of 10,000 versions of the Metaverse Song will be generated from 300 1 of 1 Artist Submissions from our Twitter NFT Community! <br/> <br/>
 
