@@ -44,7 +44,8 @@ export default function Home() {
 
   <section className='hero-section'>
   <div className='hero'>
-  <div className='sectionMargin'></div>
+  <img className='mheader-logo' src='/imgs/logo.png' alt="logo"/>
+
     <a  href="/MetaverseCoverArt">
     <button className='enter'>Enter</button></a>
     <img className="logo4" src='/imgs/MetaLogo.png' alt=""/>
@@ -367,7 +368,7 @@ For the time being, D3G3N will be known as an onboarding platform to help users 
 
 
 
-    <section className='xp-container2'>
+    <section className='xp-container5'>
       <div className='xp-main'>
       <div className='header-style'>
       <h1 className='left'> 
@@ -386,7 +387,7 @@ For the time being, D3G3N will be known as an onboarding platform to help users 
               </div>
           <h1>COMMUNITY + FAQ </h1>
           {/* <p> The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.  </p> */}
-          <a href="https://discord.gg/yR7pAUxz5s" target="_blank" rel="noreferrer"><button> DISCORD</button></a>
+          <a href="https://discord.gg/yR7pAUxz5s" target="_blank" rel="noreferrer"><button> Discord</button></a>
          
         </div>
         <div className='tiles-3'>
