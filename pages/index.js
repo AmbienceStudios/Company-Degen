@@ -18,7 +18,8 @@ export default function Home() {
 
       <nav className='navbar'>
 
-      <img className='header-logo' src='/imgs/logo.png' alt="logo"/>
+      <a  href="/">
+      <img className='header-logo' src='/imgs/logo.png' alt="logo"/></a>
 
           <ul className='navbarList Details'>
             {/* <li>About</li> */}
@@ -31,21 +32,25 @@ export default function Home() {
             
           </ul>
           <div className="smartButtons-header">
-          <button>Connect</button>
-          <button className='iconBtn'>Gift</button>
+          {/* <button>Connect</button> */}
+          {/* <button className='iconBtn'>Gift</button> */}
           </div>
         </nav>
 
 
       <main className={styles.main}>
 
-<div className='sectionMargin'></div>
+
 
   <section className='hero-section'>
-        <h1> 
-          THE CREATION OF BUILDERS
-          {/* <code className={styles.code}>pages/index.js</code> */}
-        </h1>
+  <div className='hero'>
+  <div className='sectionMargin'></div>
+    <a  href="/MetaverseCoverArt">
+    <button className='enter'>Enter</button></a>
+    <img className="logo4" src='/imgs/MetaLogo.png' alt=""/>
+    
+  </div>
+
 {/* 
        <h1>MINT YOUR STYLE</h1>
 <div class="container">
@@ -111,9 +116,11 @@ For the time being, D3G3N will be known as an onboarding platform to help users 
             {/* <code className={styles.code}>pages/index.js</code> */}
         </h1>
         <div className='partner-tiles'>
-          <div className='tiles metavatePartner'></div>
-          <div className='tiles'><p>SDR NETWORK</p></div>
-          <div className='tiles'><p>NFT FASHION WEEK</p></div>
+
+          <a href="https:\\www.metavate.io" target="_blank" rel="noreferrer">
+        <div className='tiles metavatePartner'></div></a>
+          <div className='tiles'><br/>🔒</div>
+          <div className='tiles'><br/>🔒</div>
           <div className='tiles'><br/>🔒</div>
           <div className='tiles'><br/>🔒</div>
         </div>
@@ -136,13 +143,15 @@ For the time being, D3G3N will be known as an onboarding platform to help users 
       </h5>
       </div>
       <div className='xp-tiles'>
-        <div className='tiles-2 degenMetaverse'><p>D3G3N METAVERSE</p></div>
-        <div className='tiles-2 metavateMetaverse'><p>METAVATE METAVERSE</p></div>
+      <a href="https:\\www.d3g3n.games" target="_blank" rel="noreferrer">
+        <div className='tiles-2 degenMetaverse2'></div></a>
+        <a href="https:\\www.metavate.io" target="_blank" rel="noreferrer">
+        <div className='tiles-2 metavateMetaverse2'></div></a>
         <div className='tiles-2'><br/>🔒<br/><br/><p>REQUIRES<br/> SILVER TOKEN</p></div>
         <div className='tiles-2'><br/>🔒<br/><br/><p>REQUIRES<br/> GOLD TOKEN</p></div>
         <div className='tiles-2'><br/>🔒<br/><br/><p>REQUIRES<br/> DIAMOND TOKEN</p></div>
       </div>
-      <button> View More </button>
+      {/* <button> View More </button> */}
       </div>
 
 
@@ -162,13 +171,15 @@ For the time being, D3G3N will be known as an onboarding platform to help users 
       </h5>
       </div>
       <div className='xp-tiles'>
-        <div className='tiles-2 metaverseSong'></div>
+        
+      <a href="/MetaverseCoverArt" target="blank">
+        <div className='tiles-2 metaverseSong'></div></a>
         <div className='tiles-2'><br/>🔒<br/><br/><p>MUSIC FESTIVAL<br/>IRL/METAVERSE</p></div>
         <div className='tiles-2'><br/>🔒<br/><br/><p>REQUIRES<br/> SILVER TOKEN</p></div>
         <div className='tiles-2'><br/>🔒<br/><br/><p>REQUIRES<br/> GOLD TOKEN</p></div>
         <div className='tiles-2'><br/>🔒<br/><br/><p>REQUIRES<br/> DIAMOND TOKEN</p></div>
       </div>
-      <button> View More </button>
+      {/* <button> View More </button> */}
       </div>
 
 
@@ -183,7 +194,7 @@ For the time being, D3G3N will be known as an onboarding platform to help users 
             {/* <code className={styles.code}>pages/index.js</code> */}
       </h1>
       <h5 className='left'> 
-      HOW CAN WE HELP?
+      WHAT WE DO
             {/* <code className={styles.code}>pages/index.js</code> */}
       </h5>
       </div>
@@ -265,7 +276,7 @@ For the time being, D3G3N will be known as an onboarding platform to help users 
             {/* <code className={styles.code}>pages/index.js</code> */}
       </h1>
       <h5 className='left'> 
-      THE DEDICATED MEMBERS MAKING IT HAPPEN
+      MADE POSSIBLE BY DEDICATED MEMBERS
             {/* <code className={styles.code}>pages/index.js</code> */}
       </h5>
       </div>
@@ -375,7 +386,8 @@ For the time being, D3G3N will be known as an onboarding platform to help users 
               </div>
           <h1>COMMUNITY + FAQ </h1>
           {/* <p> The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.  </p> */}
-          {/* <button> DISCORD</button> */}
+          <a href="https://discord.gg/yR7pAUxz5s" target="_blank" rel="noreferrer"><button> DISCORD</button></a>
+         
         </div>
         <div className='tiles-3'>
         <div className='icon1'>
@@ -383,7 +395,9 @@ For the time being, D3G3N will be known as an onboarding platform to help users 
         </div>
           <h1>FOLLOW US </h1>
           {/* <p> The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.  </p> */}
-          {/* <button>View Outlets</button> */}
+          <a href="https://twitter.com/d3g3nerous" target="_blank" rel="noreferrer"> <button>Twitter</button></a>
+         
+       
         </div>
         <div className='tiles-3'>
         <div className='icon3'>
@@ -391,7 +405,7 @@ For the time being, D3G3N will be known as an onboarding platform to help users 
         </div>
           <h1>FREN PORTALS </h1>
           {/* <p> The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.  </p> */}
-          {/* <button> PORTALS</button> */}
+          <button>🔒</button>
         </div>
       
       </div>
@@ -420,7 +434,7 @@ For the time being, D3G3N will be known as an onboarding platform to help users 
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M320 144c0 79.5-64.5 144-144 144S32 223.5 32 144S96.5 0 176 0s144 64.5 144 144zM176 80c8.8 0 16-7.2 16-16s-7.2-16-16-16c-53 0-96 43-96 96c0 8.8 7.2 16 16 16s16-7.2 16-16c0-35.3 28.7-64 64-64zM144 480V317.1c10.4 1.9 21.1 2.9 32 2.9s21.6-1 32-2.9V480c0 17.7-14.3 32-32 32s-32-14.3-32-32z"/></svg>
         </div>
           <h1>PREP: Q1 2022 </h1>
-          <p> The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.  </p>
+          <p> Rebrand and getting business legal work handled before relaunching to the public.  </p>
         </div>
         <div className='tiles-4'>
         <div className='icon4'>
