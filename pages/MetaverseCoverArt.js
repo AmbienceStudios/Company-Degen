@@ -55,7 +55,7 @@ export default function CoverJam() {
     <div className="CoverJam">
       <Head>
         <title>The Metaverse Song Cover Jam | D3G3N </title>
-        <meta name="description" content="the best way to show her love and appreciation for ALL of her new Frens and Fellow Creatives in the space, would be to INCLUDE them in the drop of The Metaverse Song via COLLABORATION" />
+        <meta name="description" content="Using blockchain technology, we will showcase YOUR ORIGINAL WORK as the Cover Art of the OFFICIAL MINT release of THE METAVERSE SONG!" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -66,12 +66,12 @@ export default function CoverJam() {
           <ul className='navbarList Details'>
             {/* <li>About</li> */}
         
-            <a href="#Info" target="blank"><li>Information</li></a>
-            <a href="#Theme" target="blank"><li>Theme</li></a>
-            <a href="#GetStarted" target="blank"><li>Get Started</li></a>
-            <a href="#Rules" target="blank"><li>Rules</li></a>
-            <a href="#ArtSpecs" target="blank"><li>Art Specs</li></a>
-            <a href="#Submission" target="blank"><li>Submit Artwork</li></a>
+            <a href="#Info"><li>Information</li></a>
+            <a href="#Theme" ><li>Theme</li></a>
+            <a href="#GetStarted"><li>Get Started</li></a>
+            <a href="#Rules"><li>Rules</li></a>
+            <a href="#ArtSpecs" ><li>Art Specs</li></a>
+            <a href="#Submission"><li>Submit Artwork</li></a>
      
             
           </ul>

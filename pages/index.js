@@ -23,12 +23,12 @@ export default function Home() {
 
           <ul className='navbarList Details'>
             {/* <li>About</li> */}
-            <li>Projects</li>
-            <li>Events</li>
-            <li>Services</li>
-            <li>Team</li>
-            {/* <li>Community</li> */}
-            <li>Road Map</li>
+            <a href="#About"><li>About</li></a>
+            <a href="#Exp"><li>Experiences</li></a>
+            <a href="#Events" ><li>Events</li></a>
+            <a href="#Services"><li>Services</li></a>
+            <a href="#Team" ><li>Team</li></a>
+            <a href="#RoadMap"><li>Road Map</li></a>
             
           </ul>
           <div className="smartButtons-header">
@@ -95,7 +95,7 @@ export default function Home() {
 
   </section>
 
-  <section className='about-container'>
+  <section id="About" className='about-container'>
       <div className='about-section'>
         <div className='history-section'>
           <h1 className='left section-title'> 
@@ -132,7 +132,7 @@ For the time being, D3G3N will be known as an onboarding platform to help users 
 
   </section>
 
-    <section className='xp-container'>
+    <section id="Exp" className='xp-container'>
       <div className='xp-main'>
       <div className='header-style'>
       <h1 className='left'> 
@@ -160,7 +160,7 @@ For the time being, D3G3N will be known as an onboarding platform to help users 
     </section>
 
 
-    <section className='xp-container'>
+    <section id="Events" className='xp-container'>
       <div className='xp-main'>
       <div className='header-style'>
       <h1 className='left'> 
@@ -188,7 +188,7 @@ For the time being, D3G3N will be known as an onboarding platform to help users 
     </section>
 
 
-    <section className='xp-container3'>
+    <section id="Services" className='xp-container3'>
       <div className='xp-main'>
       <div className='header-style'>
       <h1 className='left'> 
@@ -270,7 +270,7 @@ For the time being, D3G3N will be known as an onboarding platform to help users 
 
 
 
-    <section className='xp-container2'>
+    <section id="Team" className='xp-container2'>
       <div className='xp-main'>
       <div className='header-style'>
       <h1 className='left'> 
@@ -369,7 +369,7 @@ For the time being, D3G3N will be known as an onboarding platform to help users 
 
 
 
-    <section className='xp-container5'>
+    <section id="Community" className='xp-container5'>
       <div className='xp-main'>
       <div className='header-style'>
       <h1 className='left'> 
@@ -418,7 +418,7 @@ For the time being, D3G3N will be known as an onboarding platform to help users 
     </section>
 
 
-    <section className='xp-container2'>
+    <section id="RoadMap" className='xp-container2'>
       <div className='xp-main'>
       <div className='header-style'>
       <h1 className='left'> 
