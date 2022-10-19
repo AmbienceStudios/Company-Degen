@@ -7,6 +7,12 @@ body {
   overflow-x: hidden;
 }
 
+.center{
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding-bottom: 30px;
+}
 
 body {
   /* background-image: linear-gradient(120deg, #121416 0%, #ebedee 100%); */
@@ -19,6 +25,33 @@ h1, h2, h3, h4 {
   text-align: center;
 }
 
+button {
+  width: 150px;
+  padding: 10px 10px;
+  font-size: 20px;
+  border-radius: 50px;
+  background-color: #1e1e24a7;
+  border: 2px solid rgb(44, 181, 244);
+  color: white;
+
+}
+
+
+
+button:hover {
+  width: 150px;
+  padding: 10px 10px;
+  font-size: 20px;
+  border-radius: 50px;
+  background-color: rgb(227, 247, 243);
+  border: 2px solid rgb(144, 44, 244);
+  color: rgb(26, 26, 26);
+  cursor: pointer;
+
+}
+
+
+
 
 
 @media only screen and (min-width: 1441px) {
@@ -30,6 +63,11 @@ h1, h2, h3, h4 {
   .sectionMargin {
     height: 100px;
   }
+
+  .msectionMargin {
+    height: 100px;
+  }
+
   
   .enter {
     margin-top: 90px;
@@ -50,6 +88,11 @@ h1, h2, h3, h4 {
     border-bottom: 2px solid #33254fa1;
    
   }
+
+  .mheader-logo {
+    display: none;
+      
+    }
   
   .smartButtons-header {
     float: right;
@@ -340,7 +383,18 @@ h1, h2, h3, h4 {
     flex-direction: column;
   
   
-    height: 130vh;
+    height: 100vh;
+    width: 100%;
+    padding: 50px 10px;
+  
+  }
+
+  .xp-container5 {
+    display: flex;
+    flex-direction: column;
+  
+  
+    height: 65vh;
     width: 100%;
     padding: 50px 10px;
   
@@ -449,6 +503,27 @@ h1, h2, h3, h4 {
           line-height: 10px;
           letter-spacing: 4px;
           }
+
+          .xp-container3 h5 {
+            font-size: 20px;
+            font-weight: 500;
+            color: #dcc37e;
+            margin-left: 2rem;
+            line-height: 10px;
+            letter-spacing: 4px;
+            }
+    
+            .xp-container5 h1 {
+              font-size: 40px;
+              }
+              .xp-container5 h5 {
+                font-size: 20px;
+                font-weight: 500;
+                color: #dcc37e;
+                margin-left: 2rem;
+                line-height: 40px;
+                letter-spacing: 4px;
+                }
   
   
   
@@ -814,15 +889,7 @@ h1, h2, h3, h4 {
     font-size: 18px;
   }
   
-  button {
-    width: 150px;
-    padding: 10px 10px;
-    font-size: 20px;
-    border-radius: 20px;
-  
-  
-  }
-  
+
   
   .CoverJam {
     background-image: url('../public/imgs/bg.png');
@@ -849,6 +916,10 @@ h1, h2, h3, h4 {
   height: 100px;
 }
 
+.msectionMargin {
+  height: 100px;
+}
+
 .enter {
   margin-top: 90px;
 }
@@ -867,6 +938,11 @@ h1, h2, h3, h4 {
   width: 100%;
   border-bottom: 2px solid #33254fa1;
  
+}
+
+.mheader-logo {
+display: none;
+  
 }
 
 .smartButtons-header {
@@ -1166,6 +1242,17 @@ cursor: pointer;
 
 }
 
+.xp-container5 {
+  display: flex;
+  flex-direction: column;
+
+
+  height: 135vh;
+  width: 100%;
+  padding: 50px 10px;
+
+}
+
 .about-section {
   
   display: flex;
@@ -1270,6 +1357,26 @@ font-size: 65px;
         letter-spacing: 4px;
         }
 
+        .xp-container3 h5 {
+          font-size: 20px;
+          font-weight: 500;
+          color: #dcc37e;
+          margin-left: 2rem;
+          line-height: 10px;
+          letter-spacing: 4px;
+          }
+  
+          .xp-container5 h1 {
+            font-size: 40px;
+            }
+            .xp-container5 h5 {
+              font-size: 20px;
+              font-weight: 500;
+              color: #dcc37e;
+              margin-left: 2rem;
+              line-height: 40px;
+              letter-spacing: 4px;
+              }
 
 
 
@@ -1635,30 +1742,7 @@ input {
   font-size: 18px;
 }
 
-button {
-  width: 150px;
-  padding: 10px 10px;
-  font-size: 20px;
-  border-radius: 50px;
-  background-color: #1e1e24a7;
-  border: 2px solid rgb(44, 181, 244);
-  color: white;
 
-}
-
-
-
-button:hover {
-  width: 150px;
-  padding: 10px 10px;
-  font-size: 20px;
-  border-radius: 50px;
-  background-color: rgb(227, 247, 243);
-  border: 2px solid rgb(144, 44, 244);
-  color: rgb(26, 26, 26);
-  cursor: pointer;
-
-}
 
 
 .CoverJam {
@@ -1704,6 +1788,10 @@ button:hover {
   width: 100%;
   border-bottom: 2px solid #33254fa1;
  
+}
+
+.mheader-logo {
+  display: none;
 }
 
 .smartButtons-header {
@@ -2497,30 +2585,6 @@ input {
   font-size: 18px;
 }
 
-button {
-  width: 150px;
-  padding: 10px 10px;
-  font-size: 20px;
-  border-radius: 50px;
-  background-color: #1e1e24a7;
-  border: 2px solid rgb(44, 181, 244);
-  color: white;
-
-}
-
-
-
-button:hover {
-  width: 150px;
-  padding: 10px 10px;
-  font-size: 20px;
-  border-radius: 50px;
-  background-color: rgb(227, 247, 243);
-  border: 2px solid rgb(144, 44, 244);
-  color: rgb(26, 26, 26);
-  cursor: pointer;
-
-}
 
 
 .CoverJam {
@@ -2546,6 +2610,10 @@ button:hover {
     width: 150px;
     position: relative;
     top: 0px;
+    display: block;
+    margin-top: -0px;
+    padding-bottom: 0px;
+    
   }
 
   .navbar ul {
@@ -2575,7 +2643,7 @@ display: none;
 
 
 .hero-section {
-  height: 60vh;
+  height: 80vh;
   background-image: url(../public/imgs/bg.png);
   width: 100%;
   background-position: 0px 0px;
@@ -2618,13 +2686,7 @@ display: none;
     margin-right: auto;
   }
   
-  button {
-    width: 150px;
-    padding: 10px 10px;
-    font-size: 20px;
 
-  
-  }
   
   p {
     color: White;
@@ -2633,6 +2695,10 @@ display: none;
 
   .logo {
     width: 300px;
+  }
+
+  .msectionMargin {
+    display: none;
   }
 
 }

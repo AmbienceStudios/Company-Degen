@@ -19,6 +19,7 @@ export default function CoverJam() {
    useEffect(() => {
 
     const target = new Date("10/31/2022 17:00:00")
+    const subTarget = new Date("10/20/2022 12:00:00")
     // const target = new Date("10/18/2022 20:00:00")
       const interval = setInterval(() => {
       const now = new Date()
@@ -82,7 +83,9 @@ export default function CoverJam() {
 
         <div className='sectionMargin'></div>
       <main className={styles.main}>
+  
       <div className='sectionMargin'></div>
+      <img className='mheader-logo' src='/imgs/logo.png' alt="logo"/>
         <img className="logo" src='/imgs/MetaLogo.png' alt=""/>
 
         <p><code> Artist : JleeWalls </code><br/>
@@ -220,7 +223,7 @@ A total of 10,000 versions of the Metaverse Song will be generated from 300 1 of
 
 
         <div className="FormContainer">
-     <form className="formStyles" action="https://formsubmit.co/CoverJAM@d3g3n.com" method="POST">
+     <form className="formStyles center" action="https://formsubmit.co/CoverJAM@d3g3n.com" method="POST">
         <input type="hidden" name="_subject" value="CoverJAM! - New SIGN UP"/>
         <input type="text" name="Artist Name"  placeholder="Artist Name" required/>
         <input type="text" name="Artist Metamask Wallet" placeholder="Artist Metamask Wallet" required/>

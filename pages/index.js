@@ -44,8 +44,9 @@ export default function Home() {
 
   <section className='hero-section'>
   <div className='hero'>
+    
   <img className='mheader-logo' src='/imgs/logo.png' alt="logo"/>
-
+  <div className='msectionMargin'></div>
     <a  href="/MetaverseCoverArt">
     <button className='enter'>Enter</button></a>
     <img className="logo4" src='/imgs/MetaLogo.png' alt=""/>
