@@ -233,12 +233,12 @@ A total of 10,000 versions of the Metaverse Song will be generated from 300 1 of
         {/* <input type="email" name="email-verify" pattern="/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" placeholder="Verify Email Address" required/> */}
         
         <h1>Upload Cover Art</h1>
-        <p>To prove ownership and keep a time-stamp on when you first uploaded the cover art,  <br/> we recommend hosting your cover art on a decentralized hosting server. This will be used to callback to the original artwork when viewers would like to see the full artwork<br/> <br/> Although we aren&apos;t affiliated with this company,  <br/> here&apos;s an example to get started hosting your artwork file:</p>
+        {/* <p>To prove ownership and keep a time-stamp on when you first uploaded the cover art,  <br/> we recommend hosting your cover art on a decentralized hosting server. This will be used to callback to the original artwork when viewers would like to see the full artwork<br/> <br/> Although we aren&apos;t affiliated with this company,  <br/> here&apos;s an example to get started hosting your artwork file:</p>
 
         <a  href="https://www.storj.io/" target="blank"><button> STORJ Hosting </button></a>
 
         <p>Paste Artwork URL below </p>
-        <input type="text" name="Artwork" placeholder='https://link.storjshare.io/jxcw6qqr64voi4zjjq4hykaq7mwa/metaverse-song-covers%2FUntitled-3.png'></input>
+        <input type="text" name="Artwork" placeholder='https://link.storjshare.io/jxcw6qqr64voi4zjjq4hykaq7mwa/metaverse-song-covers%2FUntitled-3.png'></input> */}
         
         <input type="hidden" name="_autoresponse" value="Thank you for signup! Here's your copy!"/>
         
