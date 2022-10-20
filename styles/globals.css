@@ -130,6 +130,11 @@ button:hover {
     display: none;
       
     }
+
+    
+.mheader-logo2 {
+  display: none;
+}
   
   .smartButtons-header {
     float: right;
@@ -982,6 +987,11 @@ display: none;
   
 }
 
+
+.mheader-logo2 {
+  display: none;
+}
+
 .smartButtons-header {
   float: right;
   position: fixed;
@@ -1831,6 +1841,11 @@ input {
   display: none;
 }
 
+
+.mheader-logo2 {
+  display: none;
+}
+
 .smartButtons-header {
   float: right;
   position: fixed;
@@ -2643,7 +2658,7 @@ input {
     display: none;
   }
 
- .mheader-logo {
+  .mheader-logo {
     width: 150px;
     position: relative;
     top: 0px;
