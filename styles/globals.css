@@ -7,6 +7,31 @@ body {
   overflow-x: hidden;
 }
 
+.coverEntry {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.uploadCSS  {
+  background-color: #18192fca;
+  border-radius: 20px;
+  padding: 20px;
+  width: auto;
+  border: 2px solid white;
+  margin-bottom: 20px;
+}
+
+.uploadInput  {
+ color: white;
+}
+
+.uploadInput button {
+  background: #101014;
+}
+
 .center{
   align-items: center;
   text-align: center;
@@ -131,7 +156,10 @@ button:hover {
       
     }
 
+   
     
+
+
 .mheader-logo2 {
   display: none;
 }
@@ -750,7 +778,7 @@ button:hover {
   }
   
   
-  span:nth-child(1) {
+  /* span:nth-child(1) {
     filter: blur(5px);
   }
   
@@ -765,7 +793,7 @@ button:hover {
   span:nth-child(4) {
     filter: blur(150px);
   }
-  
+   */
   .inner-circle {
     height: 150px;
     width: 150px;
@@ -1607,7 +1635,7 @@ font-size: 65px;
 }
 
 
-span:nth-child(1) {
+/* span:nth-child(1) {
   filter: blur(5px);
 }
 
@@ -1621,7 +1649,7 @@ span:nth-child(3) {
 
 span:nth-child(4) {
   filter: blur(150px);
-}
+} */
 
 .inner-circle {
   height: 150px;
@@ -2454,7 +2482,7 @@ font-size: 45px;
 }
 
 
-span:nth-child(1) {
+/* span:nth-child(1) {
   filter: blur(5px);
 }
 
@@ -2468,7 +2496,7 @@ span:nth-child(3) {
 
 span:nth-child(4) {
   filter: blur(150px);
-}
+} */
 
 .inner-circle {
   height: 150px;

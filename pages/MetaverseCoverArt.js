@@ -2,13 +2,20 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+
+
+
 import { useEffect, useState } from 'react'
+
+import { Upload } from "@aws-sdk/lib-storage";
+import { S3Client } from "@aws-sdk/client-s3";
 
 
 
 
 
 export default function CoverJam() {
+
 
 
 
@@ -54,6 +61,35 @@ export default function CoverJam() {
       return () => clearInterval(interval)
    }, [])
 
+
+
+   const upload = (file)=>{
+    var file = (file.target.files[0]);
+ 
+ 
+     const target = { Bucket:"metaverse-song", Key:file.name, Body:file };
+     const creds = {accessKeyId: "AKIA4RBVFX7O2LODMQGY", secretAccessKey: "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"  }
+    try {
+     const parallelUploads3 = new Upload({
+       client: new S3Client({region:"us-west-2", credentials: creds }),
+       acl: 'private',
+       params: target,
+       leavePartsOnError: false, // optional manually handle dropped parts
+     });
+   
+     parallelUploads3.on("httpUploadProgress", (progress) => {
+       console.log(progress);
+     });
+   
+     parallelUploads3.done();
+   } catch (e) {
+     console.log(e);
+   }
+ 
+ 
+   }
+ 
+
   return (
     <div className="CoverJam">
       <Head>
@@ -84,7 +120,7 @@ export default function CoverJam() {
           </div>
         </nav>
 
-        <div className='sectionMargin'></div>
+        <div id="Top"  className='sectionMargin'></div>
       <main className={styles.main}>
   
       <div className='sectionMargin'></div>
@@ -238,17 +274,9 @@ A total of 10,000 versions of the Metaverse Song will be generated from 300 1 of
         <input type="email" name="email"  placeholder="Email Address" required/>
         {/* <input type="email" name="email-verify" pattern="/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" placeholder="Verify Email Address" required/> */}
         
-        <h1>Upload Cover Art</h1>
+     
 
-        <code>Uploading Feature being worked on at the moment. <br/>
-          Check back soon
-        </code>
-        {/* <p>To prove ownership and keep a time-stamp on when you first uploaded the cover art,  <br/> we recommend hosting your cover art on a decentralized hosting server. This will be used to callback to the original artwork when viewers would like to see the full artwork<br/> <br/> Although we aren&apos;t affiliated with this company,  <br/> here&apos;s an example to get started hosting your artwork file:</p> */}
 
-        {/* <a  href="https://www.storj.io/" target="blank"><button> STORJ Hosting </button></a> */}
-
-        {/* <p>Paste Artwork URL below </p> */}
-        {/* <input type="text" name="Artwork" placeholder='https://link.storjshare.io/jxcw6qqr64voi4zjjq4hykaq7mwa/metaverse-song-covers%2FUntitled-3.png'></input> */}
         
         <input type="hidden" name="_autoresponse" value="Thank you for signup! Here's your copy!"/>
         
@@ -257,7 +285,7 @@ A total of 10,000 versions of the Metaverse Song will be generated from 300 1 of
         
         <div>
 
-        <label for="ArtStyle"><h1>Are you the artist?</h1></label>
+        <label><h1>Are you the artist?</h1></label>
        
             
         <select name="user" id="userID" size="1">
@@ -266,7 +294,7 @@ A total of 10,000 versions of the Metaverse Song will be generated from 300 1 of
 
         </select>
           
-        <label for="ArtStyle"><h1>Art Style</h1></label>
+        <label><h1>Art Style</h1></label>
                   <select name="ArtStyle" id="ArtStyle" multiple>
                     <option value="Hand Drawn">Hand Drawn</option>
                     <option value="Digital Illustration">Digital Illustration</option>
@@ -275,7 +303,18 @@ A total of 10,000 versions of the Metaverse Song will be generated from 300 1 of
         </select>
 
 
-              <label for="subscribeNews"><p>By checking this box, you agree to that you are the ORIGINAL creator of the artwork submitted and <br/> that you give D3G3N full permission to use it in the Metaverse Song Cover Art Collaboration Project.</p></label>
+        <h1>Upload Cover Art</h1>
+
+       
+              <p>REQUIRED <br/><br/> File Name Should be labeled as: <br/><br/> <strong>ArtistName-TwitterHandle.png</strong> <br/><br/> <strong>Example:</strong> Freequency-AmbienceXYZ.png</p>
+<div className='coverEntry'>
+  <div className='uploadCSS'>
+<input className="uploadInput" type="file" onChange={upload}/>
+</div>
+<input type="text" name="File Name"  placeholder="Confirm File Name" required/>
+</div>
+
+              <label><p>By checking this box, you agree to that you are the ORIGINAL creator of the artwork submitted and <br/> that you give D3G3N full permission to use it in the Metaverse Song Cover Art Collaboration Project.</p></label>
               <input
                 type="checkbox"
                 id="subscribeNews"
@@ -284,8 +323,10 @@ A total of 10,000 versions of the Metaverse Song will be generated from 300 1 of
                 required />
    
         </div>
+
+        
        
-             {/* <button type="submit">Send</button> */}
+             <button type="submit">Send</button>
              
     </form>
         </div>
@@ -293,9 +334,9 @@ A total of 10,000 versions of the Metaverse Song will be generated from 300 1 of
 
       <footer className={styles.footer}>
         <a
-          href="/"
+          href="#Top"
         >
-        Home
+        Top of Page
         </a>
       </footer>
     </div>

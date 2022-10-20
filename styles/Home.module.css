@@ -26,6 +26,7 @@
   border-top: 1px solid #eaeaea;
   justify-content: center;
   align-items: center;
+ 
 }
 
 .footer a {
@@ -39,7 +40,8 @@
   padding:20px;
   border-radius: 8px;
   border: 2px solid #783583;
-  color: rgb(255, 255, 255)
+  color: rgb(255, 255, 255);
+  
 }
 
 .title a {
@@ -146,6 +148,7 @@
     width: 50%;
     margin-left: auto;
     margin-right: auto;
+    width: 150px;
 
   }
   
