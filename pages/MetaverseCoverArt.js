@@ -299,17 +299,17 @@ A total of 10,000 versions of the Metaverse Song will be generated from 300 1 of
                     <option value="Hand Drawn">Hand Drawn</option>
                     <option value="Digital Illustration">Digital Illustration</option>
                     <option value="2D Graphics">2D Graphics</option>
-                    <option value="audi">3D Render</option>
+                    <option value="3D Render">3D Render</option>
         </select>
 
 
         <h1>Upload Cover Art</h1>
 
        
-              <p>REQUIRED <br/><br/> File Name Should be labeled as: <br/><br/> <strong>ArtistName-TwitterHandle.png</strong> <br/><br/> <strong>Example:</strong> Freequency-AmbienceXYZ.png</p>
+              <p>REQUIRED <br/><br/> File Name Should be labeled as: <br/><br/> <strong>ArtistName-TwitterHandle.png</strong> <br/><br/> <strong>Example:</strong> Freequency-AmbienceXYZ.png <br/><br/> This ensures that your file will not be overwritten due to same file name</p>
 <div className='coverEntry'>
   <div className='uploadCSS'>
-<input className="uploadInput" type="file" onChange={upload}/>
+<input className="uploadInput" type="file" onChange={upload}  required/>
 </div>
 <input type="text" name="File Name"  placeholder="Confirm File Name" required/>
 </div>
