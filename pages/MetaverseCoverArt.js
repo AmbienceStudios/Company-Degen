@@ -10,6 +10,9 @@ import { useEffect, useState } from 'react'
 
 export default function CoverJam() {
 
+
+
+
    const [deadline, setDeadline] =useState(false)
    const [days, setDays] = useState(0)
    const [hours, setHours] = useState(0)
@@ -225,27 +228,27 @@ A total of 10,000 versions of the Metaverse Song will be generated from 300 1 of
 
         <div className="FormContainer">
 
-        <script type="text/javascript" src="https://form.jotform.com/jsform/222920191380046"></script>
 
 
-
-
-
-     {/* <form className="formStyles center" action="https://formsubmit.co/AmbienceXYZ@gmail.com" method="POST">
+     <form className="formStyles center" action="https://formsubmit.co/AmbienceXYZ@gmail.com" method="POST">
         <input type="hidden" name="_subject" value="CoverJAM! - New SIGN UP"/>
         <input type="text" name="Artist Name"  placeholder="Artist Name" required/>
         <input type="text" name="Artist Metamask Wallet" placeholder="Artist Metamask Wallet" required/>
         <input type="text" name="Twitter"  placeholder="Artist Twitter Handle" required/>
-        <input type="email" name="email"  placeholder="Email Address" required/> */}
-        {/* <input type="email" name="email-verify" pattern="/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" placeholder="Verify Email Address" required/> */}
+        <input type="email" name="email"  placeholder="Email Address" required/>
+        <input type="email" name="email-verify" pattern="/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" placeholder="Verify Email Address" required/>
         
-        {/* <h1>Upload Cover Art</h1>
-        <p>To prove ownership and keep a time-stamp on when you first uploaded the cover art,  <br/> we recommend hosting your cover art on a decentralized hosting server. This will be used to callback to the original artwork when viewers would like to see the full artwork<br/> <br/> Although we aren&apos;t affiliated with this company,  <br/> here&apos;s an example to get started hosting your artwork file:</p>
+        <h1>Upload Cover Art</h1>
 
-        <a  href="https://www.storj.io/" target="blank"><button> STORJ Hosting </button></a>
+        <h1>Uploading Feature being worked on at the moment. <br/>
+          Check back soon
+        </h1>
+        {/* <p>To prove ownership and keep a time-stamp on when you first uploaded the cover art,  <br/> we recommend hosting your cover art on a decentralized hosting server. This will be used to callback to the original artwork when viewers would like to see the full artwork<br/> <br/> Although we aren&apos;t affiliated with this company,  <br/> here&apos;s an example to get started hosting your artwork file:</p> */}
 
-        <p>Paste Artwork URL below </p>
-        <input type="text" name="Artwork" placeholder='https://link.storjshare.io/jxcw6qqr64voi4zjjq4hykaq7mwa/metaverse-song-covers%2FUntitled-3.png'></input>
+        {/* <a  href="https://www.storj.io/" target="blank"><button> STORJ Hosting </button></a> */}
+
+        {/* <p>Paste Artwork URL below </p> */}
+        {/* <input type="text" name="Artwork" placeholder='https://link.storjshare.io/jxcw6qqr64voi4zjjq4hykaq7mwa/metaverse-song-covers%2FUntitled-3.png'></input> */}
         
         <input type="hidden" name="_autoresponse" value="Thank you for signup! Here's your copy!"/>
         
@@ -282,9 +285,9 @@ A total of 10,000 versions of the Metaverse Song will be generated from 300 1 of
    
         </div>
        
-             <button type="submit">Send</button>
+             {/* <button type="submit">Send</button> */}
              
-    </form> */}
+    </form>
         </div>
       </main>
 
@@ -298,3 +301,6 @@ A total of 10,000 versions of the Metaverse Song will be generated from 300 1 of
     </div>
   )
 }
+
+
+  
