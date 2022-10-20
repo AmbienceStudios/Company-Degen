@@ -159,7 +159,7 @@ export default function CoverJam() {
 
         )}
 <div className='sectionMargin'></div>
-<a  id="Info" href="#Submission" target="blank"><button> Start Submission</button></a>
+<a  id="Info" href="#Submission" ><button> Start Submission</button></a>
 
 <div  className='sectionMargin'></div>
 
