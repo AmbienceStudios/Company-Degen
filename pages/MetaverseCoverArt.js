@@ -269,6 +269,9 @@ A total of 10,000 versions of the Metaverse Song will be generated from 300 1 of
      <form className="formStyles center" action="https://formsubmit.co/AmbienceXYZ@gmail.com" method="POST">
         <input type="hidden" name="_subject" value="CoverJAM! - New SIGN UP"/>
         <input type="text" name="Artist Name"  placeholder="Artist Name" required/>
+
+        <p>** please submit the public address 0x12345678..1110 <br/> not your ens domain name **<br/> <br/>
+</p>
         <input type="text" name="Artist Metamask Wallet" placeholder="Artist Metamask Wallet" required/>
         <input type="text" name="Twitter"  placeholder="Artist Twitter Handle" required/>
         <input type="email" name="email"  placeholder="Email Address" required/>
