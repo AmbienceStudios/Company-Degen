@@ -240,9 +240,9 @@ A total of 10,000 versions of the Metaverse Song will be generated from 300 1 of
         
         <h1>Upload Cover Art</h1>
 
-        <h1>Uploading Feature being worked on at the moment. <br/>
+        <code>Uploading Feature being worked on at the moment. <br/>
           Check back soon
-        </h1>
+        </code>
         {/* <p>To prove ownership and keep a time-stamp on when you first uploaded the cover art,  <br/> we recommend hosting your cover art on a decentralized hosting server. This will be used to callback to the original artwork when viewers would like to see the full artwork<br/> <br/> Although we aren&apos;t affiliated with this company,  <br/> here&apos;s an example to get started hosting your artwork file:</p> */}
 
         {/* <a  href="https://www.storj.io/" target="blank"><button> STORJ Hosting </button></a> */}
