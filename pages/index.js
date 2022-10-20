@@ -174,7 +174,7 @@ For the time being, D3G3N will be known as an onboarding platform to help users 
       </div>
       <div className='xp-tiles'>
         
-      <a href="/MetaverseCoverArt" target="blank">
+      <a href="/MetaverseCoverArt" >
         <div className='tiles-2 metaverseSong'></div></a>
         <div className='tiles-2'><br/>🔒<br/><br/><p>MUSIC FESTIVAL<br/>IRL/METAVERSE</p></div>
         <div className='tiles-2'><br/>🔒<br/><br/><p>REQUIRES<br/> SILVER TOKEN</p></div>
