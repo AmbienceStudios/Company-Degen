@@ -236,7 +236,7 @@ A total of 10,000 versions of the Metaverse Song will be generated from 300 1 of
         <input type="text" name="Artist Metamask Wallet" placeholder="Artist Metamask Wallet" required/>
         <input type="text" name="Twitter"  placeholder="Artist Twitter Handle" required/>
         <input type="email" name="email"  placeholder="Email Address" required/>
-        <input type="email" name="email-verify" pattern="/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" placeholder="Verify Email Address" required/>
+        {/* <input type="email" name="email-verify" pattern="/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" placeholder="Verify Email Address" required/> */}
         
         <h1>Upload Cover Art</h1>
 
