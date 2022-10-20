@@ -2653,6 +2653,17 @@ input {
     
   }
 
+  
+ .mheader-logo2 {
+  width: 150px;
+  position: relative;
+  top: -100px;
+  display: block;
+  margin-top: -0px;
+  padding-bottom: 0px;
+  
+}
+
   .navbar ul {
 display: none;
 
