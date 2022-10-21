@@ -16,16 +16,17 @@ body {
 }
 
 .uploadCSS  {
-  background-color: #18192fca;
+  /* background-color: #111111ca; */
   border-radius: 20px;
   padding: 20px;
   width: auto;
-  border: 2px solid white;
+  /* border: 2px solid white; */
   margin-bottom: 20px;
 }
 
 .uploadInput  {
  color: white;
+ background: #14ffe9;
 }
 
 .uploadInput button {
@@ -75,6 +76,7 @@ button {
 
 #ArtStyle {
   width: 50%;
+  height: 150px;
   text-align: center;
   font-size: 20px;
  
