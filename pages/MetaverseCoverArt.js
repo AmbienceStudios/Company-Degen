@@ -301,16 +301,10 @@ A total of 10,000 versions of the Metaverse Song will be generated from 300 1 of
 
        
               {/* <p>REQUIRED <br/><br/> File Name Should be labeled as: <br/><br/> <strong>ArtistName-TwitterHandle.png</strong> <br/><br/> <strong>Example:</strong> Freequency-AmbienceXYZ.png <br/><br/> This ensures that your file will not be overwritten due to same file name</p> */}
-<div className='coverEntry'>
-  <div className='uploadCSS'>
-<input className="uploadInput" type="file"  onChange={upload}  required/>
-</div>
-<input   type="text" name="File Name" placeholder='Confrim File Name + .(png or jpg)' required/>
-</div>
+
 
 <div className='sectionMargin'></div>
 
-              <label><p>This box signifies that you are the ORIGINAL creator of the artwork and have created it based on the following:</p>  
 
 
               <img  className="logo" src='/imgs/ART.png' alt=""/>
@@ -326,8 +320,17 @@ A total of 10,000 versions of the Metaverse Song will be generated from 300 1 of
 
 
 </p>
-              
+
+<div className='coverEntry'>
+  <div className='uploadCSS'>
+<input className="uploadInput" type="file"  onChange={upload}  required/>
+</div>
+<input   type="text" name="File Name" placeholder='Confrim File Name + .(png or jpg)' required/>
+</div>
+<label><p>This box signifies that you are the ORIGINAL creator of the artwork and have created it based on the following art specs above.</p>  
+
               <p>In accordance with the Art Specs, D3G3N is fully authorized to use my artwork in the Metaverse Song Cover Art Collaboration Project.</p></label>
+              <p>I understand my artwork will NOT be used if it does NOT meet the required ART SPECS</p>
               <input
                 type="checkbox"
                 id="subscribeNews"
