@@ -28,7 +28,7 @@ export default function CoverJam() {
 
    useEffect(() => {
 
-    const target = new Date("11/12/2022 00:00:00")
+    const target = new Date("11/13/2022 00:00:00")
     const subTarget = new Date("10/20/2022 12:00:00")
     // const target = new Date("10/18/2022 20:00:00")
       const interval = setInterval(() => {
