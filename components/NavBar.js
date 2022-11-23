@@ -1,26 +1,29 @@
+import Logo from '../public/imgs/Logo.png'
 
 const NavBar = () => {
   return (
-    <nav className='navbar'>
+    <nav class="navBarContainer blur">
+  <div class="navBarMenuContainer">
+    
+      <div class="navBar-NavigationMenu">
 
-    <a  href="/">
-    <img className='header-logo' src='/imgs/logo.png' alt="logo"/></a>
+      <div class="navBar-LogoContainer"> 
+      <a href="/"><img class="navBar-Logo" src="../imgs/Logo.png" alt="Logo" /></a>
+      </div>
 
-        <ul className='navbarList Details'>
-          {/* <li>About</li> */}
-          <a href="#About"><li>About</li></a>
-          <a href="#Exp"><li>Experiences</li></a>
-          <a href="#Events" ><li>Events</li></a>
-          <a href="#Services"><li>Services</li></a>
-          <a href="#Team" ><li>Team</li></a>
-          <a href="#RoadMap"><li>Road Map</li></a>
-          
-        </ul>
-        <div className="smartButtons-header">
-        {/* <button>Connect</button> */}
-        {/* <button className='iconBtn'>Gift</button> */}
-        </div>
-      </nav>
+      <div class="navbar-Links">
+          {/* <a href="/"><h3>Events</h3></a>
+          <a href="/"><h3>Articles</h3></a>
+          <a href="/"><h3>Merch</h3></a>
+          <a href="/"><h3>About Us</h3></a>
+          <a href="/"><h3>Contact</h3></a> */}
+      </div>
+
+  </div>
+    </div>
+    <button  class="navBar-ConnectWalletBase">Connect</button>
+
+  </nav>
   )
 }
 

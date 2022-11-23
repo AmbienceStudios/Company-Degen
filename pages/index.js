@@ -18,7 +18,7 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div id="scrollbar-wrapper">
       <Head>
       <title>Welcome Degen!  </title>
         <meta name="description" content="A platform built for creatives to express their world" />
@@ -26,16 +26,23 @@ export default function Home() {
 
       </Head>
 
+  
+
       <NavBar/>
+
+    
+    <div class="scrollbar" id="style-4">
+      <div class="force-overflow"></div>
+    </div>
 
       <main className={styles.main}>
         <Hero/>
         <About/>
         <Experiences/>
-        <Events/>
+        {/* <Events/> */}
         <Services/>
         <Team/>
-        <Community/>
+        {/* <Community/> */}
         <Roadmap />
       </main>
 

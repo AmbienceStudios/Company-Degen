@@ -1,4 +1,5 @@
 import '../styles/globals.css'
+import '../styles/baseUI.css'
 
 
 function MyApp({ Component, pageProps }) {

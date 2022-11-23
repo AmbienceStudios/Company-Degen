@@ -2,9 +2,8 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Hind Madurai', sans-serif;
-    background-image: linear-gradient(to right top, #101014, #151519, #1a1a1e, #1e1e24, #232329, #232329, #232329, #232329, #1e1e24, #1a1a1e, #151519, #101014);
-  overflow-x: hidden;
+
+  background: #050813;
 }
 
 .coverEntry {
@@ -46,23 +45,84 @@ body {
 
 body {
   /* background-image: linear-gradient(120deg, #121416 0%, #ebedee 100%); */
-  /* font-family: "Josefin Slab"; */
+  font-family: 'Montserrat', sans-serif;
   height: 100vh;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5 {
   font-family: 'Montserrat', sans-serif;
   text-align: center;
+  color: white;
 }
 
+h1 {
+  font-size: 64px;
+
+  width: 50%;
+  margin: 50px auto;
+  background: #EDF9FF;
+background: linear-gradient(to right, #EDF9FF 0%, #FFE3FB 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+h5 {
+  font-size: 15px;
+  text-align: center;
+  color: #ddd;
+  width: 50%;
+  margin: auto;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  }
+
+
+
+
 button {
-  width: 150px;
-  padding: 10px 10px;
-  font-size: 20px;
-  border-radius: 50px;
-  background-color: #1e1e24a7;
-  border: 2px solid rgb(44, 181, 244);
-  color: white;
+  background-color: initial;
+  background-image: linear-gradient(to right top, #e6deff, #ece5ff, #f1ecff, #f7f4ff, #fcfbff);
+  border-radius: 10px;
+  border-style: none;
+  box-shadow: rgba(245, 244, 247, .25) 0 1px 1px inset;
+  color: #4C3A85;
+  cursor: pointer;
+  display: inline-block;
+
+  font-size: 16px;
+  font-weight: 700;
+  height: 50px;
+  line-height: 50px;
+  margin: 0 10px;
+  outline: 0;
+  text-align: center;
+  transition: all .3s cubic-bezier(.05, .03, .35, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: bottom;
+  width: auto;
+  padding: 0px 50px;
+  text-transform: uppercase;
+  
+}
+
+button:hover {
+  opacity: .7;
+}
+
+@media screen and (max-width: 1000px) {
+  button {
+    font-size: 14px;
+    height: 55px;
+    line-height: 55px;
+    width: 150px;
+  }
+}
+
+.blur {
+  backdrop-filter: blur(15px);
+  background: #1313139f;
 
 }
 
@@ -102,17 +162,7 @@ input:invalid {
   margin-right: auto;
 }
 
-button:hover {
-  width: 150px;
-  padding: 10px 10px;
-  font-size: 20px;
-  border-radius: 50px;
-  background-color: rgb(227, 247, 243);
-  border: 2px solid rgb(144, 44, 244);
-  color: rgb(26, 26, 26);
-  cursor: pointer;
 
-}
 
 
 
@@ -195,21 +245,7 @@ button:hover {
     
   }
   
-  .navbarList {
-    gap: 40px;
-  }
-  
-  .navbar ul {
-    display: flex;
-    flex-direction: row;
-  
-  }
-  
-  
-  .navbar li {
-  cursor: pointer;
-  
-  }
+
   
   
   
@@ -318,7 +354,7 @@ button:hover {
   
   .title span {
     display: block;
-    font-family: Helvetica, Arial, Sans-Serif;
+
     font-size: 0.6rem;
     letter-spacing: 0.1rem;
     margin-top: 8px;
@@ -382,7 +418,7 @@ button:hover {
   
   .twitter a {
     color: #fff;
-    font-family: Helvetica, Arial, Sans-Serif;
+   
     font-size: 0.7rem;
     text-decoration: none;
   }
@@ -407,9 +443,10 @@ button:hover {
   
   
   .hero-section {
-    height: 70vh;
-    background-image: url(../public/imgs/bg.png);
+    height: 100vh;
+    background-image: url(../public/imgs/background.png);
     width: 100%;
+    background-repeat: no-repeat;
     background-position: 0px 0px;
     background-size: 100%;
   }
@@ -421,9 +458,8 @@ button:hover {
   .about-container {
     display: flex;
     flex-direction: column;
-    background-image: radial-gradient(circle, #151529, #1a1a2f, #1e1e34, #23233a, #282840, #2b2b45, #2e2e4a, #31314f, #343455, #36365a, #393960, #3c3c66);
-    border-radius: 60px;
-    margin-top: -60px;
+background: #050813;
+    
     height: auto;
     padding: 50px 0px;
   }
@@ -431,14 +467,41 @@ button:hover {
   .xp-container {
     display: flex;
     flex-direction: column;
+    background-image: linear-gradient(to top, #173d93, #0f3171, #0e2550, #0e1930, #050813);    height: 80vh;
+    width: 100%;
+    padding: 50px 10px;
+
   
-  
+  }
+
+    
+  .team-container {
+    display: flex;
+    flex-direction: column;
+    /* background-image: linear-gradient(to top, #372a71, #24255a, #161d42, #0f152a, #050813); */
     height: 80vh;
     width: 100%;
     padding: 50px 10px;
+
   
   }
+
+      
+  .team-container2 {
+    display: flex;
+    flex-direction: column;
+    /* background-image: linear-gradient(to top, #372a71, #24255a, #161d42, #0f152a, #050813); */
+    height: 2400px;
+    width: 100%;
+    padding: 0;
+   
+
   
+  }
+
+
+
+
   .xp-container2 {
     display: flex;
     flex-direction: column;
@@ -475,7 +538,7 @@ button:hover {
   .about-section {
     
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     
   
   }
@@ -525,13 +588,42 @@ button:hover {
   }
   
   .history-section {
-    width: 50%;
+    width: 100%;
     padding: 0px 60px;
+   
   }
   
   .history-section h1 {
-  font-size: 65px;
+  font-size: 64px;
+  text-align: center;
+  width: 50%;
+  margin: 50px auto;
+  background: #EDF9FF;
+background: linear-gradient(to right, #EDF9FF 0%, #FFE3FB 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
   }
+
+
+
+    .history-section p {
+      font-size: 18px;
+      text-align: center;
+      color: #ddd;
+      width: 50%;
+      margin: auto;
+      line-height: 26px;
+      }
+
+      .partner-section h5 {
+        font-size: 15px;
+        text-align: center;
+        color: #ddd;
+        width: 50%;
+        margin: auto;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        }
   
   .header-style {
     display: flex;
@@ -539,18 +631,9 @@ button:hover {
     padding-left: 30px;
   }
   
-  .xp-container h1 {
-    font-size: 80px;
-    }
+
   
-    .xp-container h5 {
-      font-size: 20px;
-      font-weight: 500;
-      color: #dcc37e;
-      margin-left: 2rem;
-      line-height: 10px;
-      letter-spacing: 4px;
-      }
+
   
   .xp-container2 h1 {
     font-size: 80px;
@@ -656,6 +739,7 @@ button:hover {
     justify-content: center;
     align-items: center;
     text-align: center;
+    gap: 5rem;
    
   }
   
@@ -666,22 +750,24 @@ button:hover {
     justify-content: center;
     align-items: center;
     text-align: center;
+    width: 100%;
   }
   
   .tiles {
-    margin: 2rem;
+  
     height: 75px;
     width: 200px;
-    border-radius: 10px;
-    background-color: rgb(33, 33, 33);
-    border: 2px solid #4f4f4f;
+    border-radius: 20px;
+  
+    /* background-color: rgb(33, 33, 33); */
+    /* border: 2px solid #4f4f4f; */
   }
   
   .tiles-2 {
     margin: 2rem;
     height: 300px;
-    width: 220px;
-    border-radius: 10px;
+    width: 400px;
+    border-radius: 20px;
     background-color: rgb(33, 33, 33);
     border: 2px solid #a9a9a9;
   }
@@ -857,17 +943,42 @@ button:hover {
   .metavateMetaverse2 {
     background-image: url(../public/imgs/metavateMetaverse2.png);
     background-position: center;
-    background-size: 100%;
+    background-size: 60%;
   }
-  
-  
-  
-  
-  .metavatePartner {
-    background-image: url(../public/imgs/metavateMetaverse.png);
+
+  .placeholderMetaverse2 {
+    background-image: url(../public/imgs/HowItStarted.png);
     background-position: center;
-    background-size: 100%;
+    background-size: 200%;
   }
+  
+  
+  
+  
+  .metavatePartner img {
+    background: transparent;
+    background-position: center;
+    width: 170px;
+    filter: invert(1);
+  }
+
+    
+  .hashlipsPartner img {
+    background: transparent;
+    background-position: center;
+    width: 150px;
+    filter: blur(20px);
+  
+  }
+
+  .sdrnPartner img {
+    background: transparent;
+    background-position: center;
+    width: 170px;
+  
+  }
+  
+
   
   .metaverseSong {
     background-image: url(../public/imgs/metaverseSong.png);
@@ -1174,7 +1285,7 @@ cursor: pointer;
 
 .title span {
   display: block;
-  font-family: Helvetica, Arial, Sans-Serif;
+;
   font-size: 0.6rem;
   letter-spacing: 0.1rem;
   margin-top: 8px;
@@ -1238,7 +1349,7 @@ cursor: pointer;
 
 .twitter a {
   color: #fff;
-  font-family: Helvetica, Arial, Sans-Serif;
+
   font-size: 0.7rem;
   text-decoration: none;
 }
@@ -1281,7 +1392,7 @@ cursor: pointer;
   flex-direction: column;
  background-image: linear-gradient(to left top, #151529, #1a1a2f, #1e1e34, #23233a, #282840, #2b2b45, #2e2e4a, #31314f, #343455, #36365a, #393960, #3c3c66);
   border-radius: 60px;
-  margin-top: -60px;
+
   height: auto;
   padding: 50px 0px;
 }
@@ -1397,18 +1508,6 @@ font-size: 65px;
   padding-left: 30px;
 }
 
-.xp-container h1 {
-  font-size: 80px;
-  }
-
-  .xp-container h5 {
-    font-size: 20px;
-    font-weight: 500;
-    color: #dcc37e;
-    margin-left: 2rem;
-    line-height: 10px;
-    letter-spacing: 4px;
-    }
 
 .xp-container2 h1 {
   font-size: 80px;
@@ -1513,6 +1612,7 @@ font-size: 65px;
   justify-content: center;
   align-items: center;
   text-align: center;
+  gap: 5rem;
  
 }
 
@@ -1526,12 +1626,12 @@ font-size: 65px;
 }
 
 .tiles {
-  margin: 2rem;
+ 
   height: 75px;
   width: 200px;
   border-radius: 10px;
-  background-color: rgb(33, 33, 33);
-  border: 2px solid #4f4f4f;
+    /* background-color: rgb(33, 33, 33); */
+    /* border: 2px solid #4f4f4f; */
 }
 
 .tiles-2 {
@@ -1721,9 +1821,10 @@ background-size: 100%;
 
 
 .metavatePartner {
-  background-image: url(../public/imgs/metavateMetaverse.png);
+  background-image: url(../public/imgs/metavate.png);
   background-position: center;
   background-size: 100%;
+  filter: invert(1);
 }
 
 .metaverseSong {
@@ -2028,7 +2129,7 @@ cursor: pointer;
 
 .title span {
   display: block;
-  font-family: Helvetica, Arial, Sans-Serif;
+
   font-size: 0.6rem;
   letter-spacing: 0.1rem;
   margin-top: 8px;
@@ -2092,7 +2193,7 @@ cursor: pointer;
 
 .twitter a {
   color: #fff;
-  font-family: Helvetica, Arial, Sans-Serif;
+
   font-size: 0.7rem;
   text-decoration: none;
 }
@@ -2135,21 +2236,12 @@ cursor: pointer;
   flex-direction: column;
  background-image: linear-gradient(to left top, #151529, #1a1a2f, #1e1e34, #23233a, #282840, #2b2b45, #2e2e4a, #31314f, #343455, #36365a, #393960, #3c3c66);
   border-radius: 60px;
-  margin-top: -60px;
+
   height: auto;
   padding: 50px 0px;
 }
 
-.xp-container {
-  display: flex;
-  flex-direction: column;
 
-
-  height: 230vh;
-  width: 100%;
-  padding: 50px 10px;
-
-}
 
 .xp-container2 {
   display: flex;
@@ -2254,18 +2346,8 @@ font-size: 45px;
   padding-left: 10px;
 }
 
-.xp-container h1 {
-  font-size: 40px;
-  }
 
-  .xp-container h5 {
-    font-size: 20px;
-    font-weight: 500;
-    color: #dcc37e;
-    margin-left: 2rem;
-    line-height: 40px;
-    letter-spacing: 4px;
-    }
+
 
 .xp-container2 h1 {
   font-size: 40px;
@@ -2361,6 +2443,7 @@ font-size: 45px;
   justify-content: center;
   align-items: center;
   text-align: center;
+  gap: 5rem;
  
 }
 
@@ -2373,12 +2456,12 @@ font-size: 45px;
 }
 
 .tiles {
-  margin: 2rem;
+  
   height: 75px;
   width: 200px;
   border-radius: 10px;
-  background-color: rgb(33, 33, 33);
-  border: 2px solid #4f4f4f;
+    /* background-color: rgb(33, 33, 33); */
+    /* border: 2px solid #4f4f4f; */
 }
 
 .tiles-2 {
@@ -2568,9 +2651,16 @@ background-size: 100%;
 
 
 .metavatePartner {
-  background-image: url(../public/imgs/metavateMetaverse.png);
+  background-image: url(../public/imgs/metavate.png);
   background-position: center;
   background-size: 100%;
+  filter: invert(1);
+}
+
+.hashlipsPartner {
+
+  background-position: center;
+  width: 150px;
 }
 
 .metaverseSong {
