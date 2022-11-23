@@ -5,6 +5,24 @@
    
 }
 
+.navBar-Smart {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+
+
+.navBar-Smart span {
+  background: #1414149A;
+  backdrop-filter: blur(5px);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
 
 .navBarMenu{ 
     display: flex;
@@ -85,11 +103,6 @@
   top: 20px;
 }
 
-.navBar-ConnectWalletBase button {
-  
-   color: white;
-
-  }
 
 
   /* Team */
