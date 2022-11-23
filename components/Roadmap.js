@@ -34,7 +34,7 @@ const Roadmap = () => {
             <div class="timeline-item-label2">Review Research and Polished Development</div>
             <div class="timeline-item-content">
               <p>Integrate Bitair payment solution into real business network regarding booking airline ticket (trial version) to conduct research</p>
-              <p>Make survey of user's experiences & choices</p>
+              <p>Make survey of user&apos;s experiences & choices</p>
               <p>Approach airlines, travel & tourism agencies regarding a new, fast, cheap, reliable payment method.</p>
               <p>Develop application iOS and Android</p>
             </div>
@@ -99,7 +99,7 @@ const Roadmap = () => {
 
           <div class="timeline-item-block timeline-item-block18q2 timeline-item-block-violet">
             <div class="timeline-item-time">
-              <div class="timeline-item-label">Jlee's Start</div>
+              <div class="timeline-item-label">Jlee&apos;s Start</div>
             </div>
             <div class="timeline-item-label-hr">
               <div class="item-dot timeline-dot">&nbsp;</div>
@@ -125,7 +125,7 @@ const Roadmap = () => {
             <div class="timeline-item-label2">Polishing up UI and development builds</div>
             <div class="timeline-item-content">
               <p>Integrate Bitair payment solution into real business network regarding booking airline ticket (trial version) to conduct research</p>
-              <p>Make survey of user's experiences & choices</p>
+              <p>Make survey of user&apos;s experiences & choices</p>
               <p>Approach airlines, travel & tourism agencies regarding a new, fast, cheap, reliable payment method.</p>
               <p>Develop application iOS and Android</p>
             </div>
@@ -149,7 +149,7 @@ const Roadmap = () => {
 
           <div class="timeline-item-block timeline-item-block-right timeline-item-block-blue">
             <div class="timeline-item-time">
-              <div class="timeline-item-label">Freequency's Start</div>
+              <div class="timeline-item-label">Freequency&apos;s Start</div>
             </div>
             <div class="timeline-item-label-hr">
               <div class="item-dot timeline-dot">&nbsp;</div>
