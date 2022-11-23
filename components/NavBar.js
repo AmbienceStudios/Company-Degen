@@ -1,4 +1,3 @@
-import Logo from '../public/imgs/Logo.png'
 
 const NavBar = () => {
   return (
