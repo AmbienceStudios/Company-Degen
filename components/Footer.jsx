@@ -25,9 +25,11 @@ const Footer = () => (
             alt="headset"
             className="w-[24px] h-[24px] object-contain"
           />
-          <span className="font-normal text-[16px] text-white">
-            Enter Metaverse
-          </span>
+          <a href="https://vr-gallaery.vercel.app/" target="_blank" rel="noreferrer">
+            <span className="font-normal text-[16px] text-white">
+              Enter Metaverse
+            </span>
+          </a>
         </button>
       </div>
 
@@ -36,10 +38,10 @@ const Footer = () => (
 
         <div className="flex items-center justify-between flex-wrap gap-4">
           <h4 className="font-extrabold text-[24px] text-white">
-            METAVERUS
+            Powered By Degens
           </h4>
           <p className="font-normal text-[14px] text-white opacity-50">
-            Copyright © 2021 - 2022 Metaversus. All rights reserved.
+            Copyright © 2023 - D3G3N LLC. All rights reserved.
           </p>
 
           <div className="flex gap-4">
